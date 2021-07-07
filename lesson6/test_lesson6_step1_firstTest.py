@@ -1,7 +1,5 @@
+from selenium import webdriver
 import time
-# webdriver это и есть набор команд для управления браузером
-from selenium import webdr
-
 # инициализируем драйвер браузера. После этой команды вы должны увидеть новое открытое окно браузера
 driver = webdriver.Chrome()
 
@@ -29,3 +27,6 @@ time.sleep(5)
 
 # После выполнения всех действий мы должны не забыть закрыть окно браузера
 driver.quit()
+
+def test_abs2():
+    pass
