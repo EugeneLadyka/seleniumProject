@@ -23,4 +23,7 @@ finally:
     time.sleep(25)
     driver.quit()
 
+def test_abs2():
+    pass
+
 
