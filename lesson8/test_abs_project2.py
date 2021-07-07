@@ -9,3 +9,6 @@ class TestAbs(unittest.TestCase):
 
 if __name__ == "__main__":
         unittest.main()
+
+def test_abs():
+    pass
