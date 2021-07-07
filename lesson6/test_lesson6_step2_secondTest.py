@@ -6,3 +6,6 @@ button = driver.find_element_by_id("submit_button")
 
 # закрываем браузер после всех манипуляций
 driver.quit()
+
+def test_abs2():
+    pass
