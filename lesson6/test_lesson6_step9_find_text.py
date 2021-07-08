@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-link = "http://suninjuly.github.io/registration2.html"
+link = "http://suninjuly.github.io/registration1.html"
 
 try:
     driver = webdriver.Chrome()
@@ -38,5 +38,5 @@ finally:
 # work link for this test
 link = "http://suninjuly.github.io/registration1.html"
 
-def test_abs():
+def test():
     pass
